@@ -1,0 +1,55 @@
+li {
+    margin-right: 50px! important;
+}
+/* Gallery section image */
+.section-image {
+    background-image: url("img/minions.jpg") !important;
+}
+/* Navigation botton color */
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color:#FFA000;
+}
+/* Carousel button and color set */
+.carousel .carousel-control-prev-icon {
+    background-image: url(../img/svg/arrow_left.svg);
+}
+.carousel .carousel-control-next-icon {
+    background-image: url(../img/svg/arrow_right.svg);
+}
+/* about page social media link color set */
+a,
+a.disabled:hover,
+a:disabled:hover {
+    color: #FFA000;
+}
+.rent-image {
+    background-image: url("img/Avenger.jpg")!important; 
+    background-blend-mode: screen !important;
+}
+.error{
+    color: red;
+    margin-left: 10px;
+}
+.error_show {
+    color: red;
+    margin-left: 10px;
+}
+input.invalid,
+textarea.invalid {
+    border: 2px solid red;
+}
+input.valid,
+textarea.valid {
+    border: 2px solid green;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
